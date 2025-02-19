@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant | Accueil</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+        </div>
+
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo du restaurant" class="logo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="gallery.html">Galerie</a></li>
+                <li><a href="reservation.html">Réservations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="reservation.html" class="btn-reservation">Réserver</a>
+    </header>
+
+    <div class="menu-container">
+        <div class="menu-nav">
+            <button class="menu-btn" onclick="showMenu('entrees')">Entrées</button>
+            <button class="menu-btn" onclick="showMenu('plats')">Plats</button>
+            <button class="menu-btn" onclick="showMenu('desserts')">Desserts</button>
+            <button class="menu-btn" onclick="showMenu('boissonssansalcool')">Boissons sans alcool</button>
+            <button class="menu-btn" onclick="showMenu('alcooletcocktail')">Alcools et cocktails</button>
+            <button class="menu-btn" onclick="showMenu('vins')">Vins</button>
+            <button class="menu-btn" onclick="showMenu('champagnes')">Champagnes</button>
+            <button class="menu-btn" onclick="showMenu('digestifsetspiritueux')">Digestifs et Spiritueux</button>
+        </div>
+
+        <div id="menu-content">
+            <div id="entrees" class="menu-section">
+                <div class="menu-item">
+                    <img src="images/entree1.jpeg" alt="Entrée">
+                    <div class="menu-text">
+                        <h3>Salade César</h3>
+                        <p>Salade, poulet grillé, parmesan, croûtons, sauce César</p>
+                    </div>
+                    <i>5 000 FCFA</i>
+                </div>
+                <div class="menu-item">
+                    <img src="images/entree2.jpeg" alt="Entrée">
+                    <div class="menu-text">
+                        <h3>Carpaccio de Bœuf</h3>
+                        <p>Salade, poulet grillé, parmesan, croûtons, sauce César</p>
+                    </div>
+                    <i>5 000 FCFA</i>
+                </div>
+                <div class="menu-item">
+                    <img src="images/entree3.jpeg" alt="Entrée">
+                    <div class="menu-text">
+                        <h3>Salade César</h3>
+                        <p>Fines tranches de bœuf marinées, roquette, parmesan, huile d’olive </p>
+                    </div>
+                    <i>7 500 FCFA</i>
+                </div>
+                <div class="menu-item">
+                    <img src="images/entree4.jpeg" alt="Entrée">
+                    <div class="menu-text">
+                        <h3>Velouté de Potiron</h3>
+                        <p>Soupe onctueuse de potiron, crème fraîche, noisettes grillées </p>
+                    </div>
+                    <i>4 500 FCFA</i>
+                </div>
+                <div class="menu-item">
+                    <img src="images/entree5.jpeg" alt="Entrée">
+                    <div class="menu-text">
+                        <h3>Tartare de Saumon</h3>
+                        <p>Saumon frais mariné, avocat, citron vert, baies roses</p>
+                    </div>
+                    <i>8 000 FCFA</i>
+                </div>
+                <div class="menu-item">
+                    <img src="images/entree6.jpeg" alt="Entrée">
+                    <div class="menu-text">
+                        <h3>Foie Gras Maison</h3>
+                        <p>Servi avec chutney de figues et pain brioché</p>
+                    </div>
+                    <i>12 000 FCFA</i>
+                </div>
+            </div>
+
+            <div id="plats" class="menu-section">
+                <div class="menu-item">
+                    <img src="images/plat1.jpeg" alt="Plat">
+                    <div class="menu-text">
+                        <h3>Poulet Yassa</h3>
+                        <p>Poulet mariné aux oignons, citron et épices africaines</p>
+                    </div>
+                    <i>8 500 FCFA</i>
+                </div>
+                <div class="menu-item">
+                    <img src="images/plat2.jpeg" alt="Plat">
+                    <div class="menu-text">
+                        <h3>Filet de Bœuf Rossini</h3>
+                        <p>Tournedos de bœuf, foie gras poêlé, sauce truffée </p>
+                    </div>
+                    <i>18 000 FCFA</i>
+                </div>
+                <div class="menu-item">
+                    <img src="images/plat3.jpeg" alt="Plat">
+                    <div class="menu-text">
+                        <h3>Langouste Grillée</h3>
+                        <p>Accompagnée d’un beurre citronné et riz parfumé</p>
+                    </div>
+                    <i>22 000 FCFA</i>
+                </div>
+                <div class="menu-item">
+                    <img src="images/plat4.jpeg" alt="Plat">
+                    <div class="menu-text">
+                        <h3>Risotto aux Champignon</h3>
+                        <p>Riz Arborio crémeux, champignons sauvages, parmesan</p>
+                    </div>
+                    <i>10 500 FCFA</i>
+                </div>
+                <div class="menu-item">
+                    <img src="images/plat5.jpeg" alt="Plat">
+                    <div class="menu-text">
+                        <h3>Côte de Veau Rôtie</h3>
+                        <p>Servie avec gratin dauphinois et sauce morilles</p>
+                    </div>
+                    <i>16 500 FCFA</i>
+                </div>
+                <div class="menu-item">
+                    <img src="images/plat6.jpeg" alt="Plat">
+                    <div class="menu-text">
+                    <h3>Tagliatelles aux Fruits de Mer </h3>
+                        <p>Pâtes fraîches, crevettes, moules, calamars, sauce tomate épicée </p>
+                    </div>
+                    <i>12 500 FCFA</i>
+                </div>
+            </div>
+
+            <div id="desserts" class="menu-section">
+                <div class="menu-item">
+                    <img src="images/dessert1.jpeg" alt="Dessert">
+                    <div class="menu-text">
+                        <h3>Tarte au Chocolat</h3>
+                        <p>Tarte sablée, ganache au chocolat noir, noisettes</p>
+                    </div>
+                    <i>4 500 FCFA</i>
+                </div>
+                <div class="menu-item">
+                    <img src="images/dessert2.jpeg" alt="Dessert">
+                    <div class="menu-text">
+                        <h3>Crème Brûlée à la Vanille </h3>
+                        <p>Vanille de Madagascar, cassonade caramélisée</p>
+                    </div>
+                    <i>5 000 FCFA</i>
+                </div>
+                <div class="menu-item">
+                    <img src="images/dessert3.jpeg" alt="Dessert">
+                    <div class="menu-text">
+                        <h3>Moelleux au Chocolat </h3>
+                        <p>Cœur fondant au chocolat noir, boule de glace vanille</p>
+                    </div>
+                    <i>5 500 FCFA</i>
+                </div>
+                <div class="menu-item">
+                    <img src="images/dessert4.jpeg" alt="Dessert">
+                    <div class="menu-text">
+                        <h3>Tiramisu Classique </h3>
+                        <p>Mascarpone, café, cacao, biscuit imbibé</p>
+                    </div>
+                    <i>4 800 FCFA</i>
+                </div>
+                <div class="menu-item">
+                    <img src="images/dessert5.jpeg" alt="Dessert">
+                    <div class="menu-text">
+                        <h3>Assiette de Fromages Affinés </h3>
+                        <p>Sélection de fromages artisanaux et confiture de figues</p>
+                    </div>
+                    <i>7 500 FCFA</i>
+                </div>
+            </div>
+
+            <div id="boissonssansalcool" class="menu-section">
+                <div class="menu-item">
+                    <img src="images/b1.jpeg" alt="Boisson">
+                    <div class="menu-text">
+                        <h3>Jus de Bissap</h3>
+                        <p>Jus d'hibiscus sucré, servi frais</p>
+                    </div>
+                    <i>2 000 FCFA</i>
+                </div>
+                <div class="menu-item">
+                    <img src="images/b2.jpeg" alt="Boisson">
+                    <div class="menu-text">
+                        <h3>Cocktail de Fruits Frais </h3>
+                        <p>Mangue, ananas, orange, passion</p>
+                    </div>
+                    <i>3 500 FCFA</i>
+                </div>
+                <div class="menu-item">
+                    <img src="images/b3.jpeg" alt="Boisson">
+                    <div class="menu-text">
+                        <h3>Limonade Maison</h3>
+                        <p>Citron, menthe, sucre de canne</p>
+                    </div>
+                    <i>2 500 FCFA</i>
+                </div>
+                <div class="menu-item">
+                    <img src="images/b4.jpeg" alt="Boisson">
+                    <div class="menu-text">
+                        <h3>Eau Minérale </h3>
+                        <p>Plate ou Gazeuse</p>
+                    </div>
+                    <i>1 500 FCFA</i>
+                </div>
+            </div>
+            <div id="alcooletcocktail" class="menu-section">
+                <div class="menu-item">
+                    <img src="images/ba1.jpeg" alt="Alcoolet">
+                    <div class="menu-text">
+                        <h3>Mojito</h3>
+                        <p>Rhum, menthe, citron vert, sucre, eau gazeuse</p>
+                    </div>
+                    <i>6 500 FCFA</i>
+                </div>
+                <div class="menu-item">
+                    <img src="images/ba2.jpeg" alt="Alcoolet">
+                    <div class="menu-text">
+                        <h3>Caïpirinha </h3>
+                        <p>Cachaça, citron vert, sucre de canne</p>
+                    </div>
+                    <i>6 000 FCFA</i>
+                </div>
+                <div class="menu-item">
+                    <img src="images/ba3.jpeg" alt="Alcoolet">
+                    <div class="menu-text">
+                        <h3>Margarita </h3>
+                        <p>Tequila, triple sec, citron vert</p>
+                    </div>
+                    <i>7 000 FCFA</i>
+                </div>
+            </div>
+            <div id="vins" class="menu-section">
+                <h3>Vins blancs</h3>
+                <div class="menu-item">
+                    <img src="images/vb1.jpeg" alt="Vin">
+                    <div class="menu-text">
+                        <h3>Chablis Premier Cru</h3>
+                        <p>Chardonna, Bourgogne, France</p>
+                    </div>
+                    <i>14 000 FCFA la bouteille</i>
+                </div>
+                <div class="menu-item">
+                    <img src="images/vb2.jpeg" alt="Vin">
+                    <div class="menu-text">
+                        <h3>Sancerre </h3>
+                        <p>Sauvignon Blanc, Loire, France</p>
+                    </div>
+                    <i>12 000 FCFA la bouteille</i>
+                </div>
+                <h3>Vins rouges</h3>
+                <div class="menu-item">
+                    <img src="images/vr1.jpeg" alt="Vin">
+                    <div class="menu-text">
+                        <h3>            Château Margaux </h3>
+                        <p>Grand cru classé, Bordeaux</p>
+                    </div>
+                    <i>15 000 FCFA la bouteille</i>
+                </div>
+                <div class="menu-item">
+                    <img src="images/vr2.jpeg" alt="Vin">
+                    <div class="menu-text">
+                        <h3>            Côte-Rôtie </h3>
+                        <p>Syrah, Vallée du Rhône</p>
+                    </div>
+                    <i>13 500 FCFA la bouteille</i>
+                </div>
+            </div>
+            <div id="champagnes" class="menu-section">
+                <h3>Champagnes</h3>
+                <div class="menu-item">
+                    <img src="images/c1.jpeg" alt="Vin">
+                    <div class="menu-text">
+                        <h3>            Moët & Chandon Brut Impérial</h3>
+                        <p></p>
+                    </div>
+                    <i>25 000 FCFA la bouteille</i>
+                </div>
+                <div class="menu-item">
+                    <img src="images/c2.jpeg" alt="Vin">
+                    <div class="menu-text">
+                        <h3>            Dom Pérignon Vintage</h3>
+                        <p></p>
+                    </div>
+                    <i>60 000 FCFA la bouteille</i>
+                </div>
+            </div>
+            <div id="digestifsetspiritueux" class="menu-section">
+                <h3>Digestifs et spiritueux</h3>
+                <div class="menu-item">
+                    <img src="images/d1.jpeg" alt="Vin">
+                    <div class="menu-text">
+                        <h3>            Cognac XO</h3>
+                        <p></p>
+                    </div>
+                    <i>10 000 FCFA le verre</i>
+                </div>
+                <div class="menu-item">
+                    <img src="images/d2.jpeg" alt="Vin">
+                    <div class="menu-text">
+                        <h3>            Whisky Single Malt 18 ans ()</h3>
+                        <p></p>
+                    </div>
+                    <i>12 000 FCFA le verre</i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="equipe">
+        <h2>De quoi ravir vos papilles</h2>
+            <div class="equipe-container">
+                <div class="card">
+                    <img src="images/plat9.jpeg" alt="Directeur">
+                </div>
+                <div class="card">
+                    <img src="images/plat10.jpeg" alt="Manager">
+                </div>
+                <div class="card">
+                    <img src="images/plat11.jpeg" alt="Chef">
+                </div>
+            </div>
+    </section>
+    
+
+    <section class="reservation">
+        <h2>Réservez votre table</h2>
+        <a href="reservation.html" class="btn">Réserver maintenant</a>
+    </section>
+
+    <footer>
+        <p class="copyright">© 2025 Le Club. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
