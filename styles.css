@@ -427,8 +427,8 @@ section {
 }
 
 .specialty-items img {
-    width: 180px;
-    height: 200px;
+    width: 250px;
+    height: 300px;
     border-radius: 10px;
 }
 
@@ -438,8 +438,8 @@ section {
 }
 
 .specialties-content img {
-    width: 60%;
-    height: auto;
+    width: 20%;
+    height: 20%;
 }
 
 .specialty-items p {
