@@ -438,8 +438,8 @@ section {
 }
 
 .specialties-content img {
-    width: 20%;
-    height: 20%;
+    width: 60%;
+    height: auto;
 }
 
 .specialty-items p {
