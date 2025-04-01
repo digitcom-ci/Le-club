@@ -265,7 +265,7 @@ header {
 
     /* Section Hero */
     .hero {
-        height: 94vh;
+        height: 90vh;
         background: url('images/restaurant.JPG') center/cover no-repeat;
         display: flex;
         flex-direction: column;
