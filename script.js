@@ -34,7 +34,7 @@ document.getElementById("reservation-form").addEventListener("submit", function(
     let guests = document.getElementById("guests").value;
 
     // Numéro WhatsApp du restaurant (format international sans le "+")
-    let whatsappNumber = "2250797484729"; // Remplace par ton numéro
+    let whatsappNumber = "2250707733950"; // Remplace par ton numéro
 
     // Message à envoyer
     let message = `📢 Nouvelle réservation au restaurant !%0A👤 Nom: ${name}%0A📧 Email: ${email}%0A📞 Téléphone: ${phone}%0A📅 Date: ${date}%0A⏰ Heure: ${time}%0A👥 Nombre de personnes: ${guests}`;
